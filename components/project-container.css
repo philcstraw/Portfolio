@@ -1,0 +1,27 @@
+.project-container-project-container {
+  gap: var(--dl-space-space-halfunit);
+  width: 527px;
+  height: 348px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.project-container-title {
+  color: #f1eaea;
+  font-size: 24px;
+}
+.project-container-iframe {
+  width: 320px;
+  height: 200px;
+  align-self: center;
+}
+.project-container-description {
+  color: rgb(241, 234, 234);
+  width: 320px;
+  text-align: center;
+}
+
+
+

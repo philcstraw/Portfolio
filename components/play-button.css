@@ -1,0 +1,24 @@
+.play-button-container {
+  display: flex;
+  position: relative;
+  align-items: stretch;
+  justify-content: center;
+}
+.play-button-play-button {
+  width: 375px;
+  height: 70px;
+  position: relative;
+  align-self: stretch;
+  text-align: center;
+  font-family: "Quicksand";
+  border-color: #d1d1e0;
+  border-width: 10px;
+  border-radius: 50px;
+}
+.play-button-text {
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+}
+
