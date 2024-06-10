@@ -60,16 +60,46 @@
   <body>
     <link rel="stylesheet" href="../style.css" />
     <div>
-      <link href="./game-info-panel.css" rel="stylesheet" />
-      <div class="game-info-panel-game-info-panel">
-        <span class="game-info-panel-game-title"><span>Title</span></span>
-        <img
-          alt="image"
-          src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
-          class="game-info-panel-image"
-        />
-        <span class="game-info-panel-text"><span>Text</span></span>
-        <span class="game-info-panel-text1"><span>Text</span></span>
+      <link href="./game-info-container.css" rel="stylesheet" />
+      <div id="gamePageID" class="game-info-container-game-info-container">
+        <div class="game-info-container-start-space"></div>
+        <h1 class="game-info-container-game-title HeaderText">
+          <span>Tile</span>
+        </h1>
+        <div class="game-info-container-space"></div>
+        <div class="game-info-container-game-container">
+          <div class="game-info-container-game-image-container">
+            <img
+              alt="image"
+              src="https://images.unsplash.com/photo-1553481187-be93c21490a9?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fEdhbWV8ZW58MHx8fHwxNzE3OTMzNjAwfDA&amp;ixlib=rb-4.0.3&amp;h=300"
+              class="game-info-container-image"
+            />
+          </div>
+          <div class="game-info-container-game-desc-container">
+            <span class="game-info-container-company-text">
+              <span>company</span>
+            </span>
+            <span class="game-info-container-platform">
+              <span>platform</span>
+            </span>
+            <textarea
+              placeholder="genre"
+              class="game-info-container-textarea textarea"
+            ></textarea>
+          </div>
+        </div>
+        <div class="game-info-container-space1"></div>
+        <div class="game-info-container-content-container">
+          <div class="game-info-container-text-container">
+            <span class="game-info-container-description">
+              <span>description</span>
+            </span>
+            <span class="game-info-container-content">
+              <span>content</span>
+            </span>
+          </div>
+        </div>
+        <div class="game-info-container-end-space"></div>
       </div>
     </div>
     <script

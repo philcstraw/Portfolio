@@ -1,65 +1,61 @@
 .game-info-panel-game-info-panel {
-  width: 448px;
-  height: 207px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: center;
-}
-.game-info-panel-container {
-  flex: 0 0 auto;
   width: auto;
   height: auto;
   display: flex;
+  position: relative;
   align-items: flex-start;
-  justify-content: flex-start;
-}
-.game-info-panel-container1 {
-  flex: 0 0 auto;
-  width: 200px;
-  height: 200px;
-  display: flex;
-  align-self: center;
-  margin-right: var(--dl-space-space-halfunit);
-  flex-direction: row;
-  justify-content: flex-end;
-}
-.game-info-panel-image {
-  width: 200px;
-  height: 200px;
-  align-self: flex-end;
-  object-fit: cover;
+  padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-buttonradius);
-}
-.game-info-panel-container2 {
-  gap: var(--dl-space-space-halfunit);
-  flex: 0 0 auto;
-  width: 233px;
-  height: 203px;
-  display: flex;
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-halfunit);
-  padding-top: var(--dl-space-space-unit);
-  margin-right: 0px;
+  padding-right: var(--dl-space-space-unit);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-unit);
   justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0);
 }
 .game-info-panel-game-title {
   font-size: 24px;
-  align-self: flex-start;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: "Quicksand";
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.game-info-panel-image {
+  width: 243px;
+  height: 136px;
+  align-self: center;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-buttonradius);
+  text-decoration: none;
 }
 .game-info-panel-text {
-  align-self: flex-start;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: "Quicksand";
+  font-weight: 600;
 }
 .game-info-panel-text1 {
+  align-self: center;
+  font-style: normal;
+  text-align: left;
   font-family: "Quicksand";
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
 }
+
+
+
+
+
+
+.game-info-panel-root-class-name6 {
+  display: none;
+}
+
+
 
 
 
@@ -96,6 +92,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 .play-button-container {
   display: flex;
   position: relative;
@@ -119,6 +124,9 @@
   text-align: center;
   font-weight: 700;
 }
+
+
+
 
 
 .home-container {
@@ -217,17 +225,6 @@
 }
 .home-space01 {
   width: 100%;
-  height: 64px;
-  display: flex;
-  align-items: flex-end;
-}
-.home-contact {
-  fill: var(--dl-color-theme-neutral-light);
-  color: var(--dl-color-theme-neutral-light);
-  align-self: center;
-}
-.home-space02 {
-  width: 100%;
   height: 76px;
   display: flex;
   align-items: flex-start;
@@ -240,6 +237,18 @@
   padding-left: 320px;
   padding-right: 320px;
 }
+.home-space02 {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: flex-end;
+}
+.home-contact {
+  fill: var(--dl-color-theme-neutral-light);
+  color: var(--dl-color-theme-neutral-light);
+  align-self: center;
+  padding-bottom: var(--dl-space-space-unit);
+}
 .home-space03 {
   width: 100%;
   height: 64px;
@@ -247,29 +256,30 @@
   align-items: center;
   justify-content: center;
 }
-.home-link {
+.home-download-link {
   fill: var(--dl-color-theme-neutral-light);
   color: var(--dl-color-theme-neutral-light);
-  text-decoration: underline  none;
+  font-size: 28px;
+  text-decoration: none;
 }
 .home-games-page {
   width: 100%;
-  height: 1188px;
+  height: auto;
   display: flex;
   align-self: center;
   align-items: center;
   margin-left: 0px;
   margin-right: 0px;
   flex-direction: column;
-  background-size: cover;
   justify-content: flex-start;
-  background-image: url("https://images.unsplash.com/photo-1579546928937-641f7ac9bced?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDc5fHxhYnN0cmFjdHxlbnwwfHx8fDE3MTY0NTk1MTJ8MA&ixlib=rb-4.0.3&w=1500");
+  background-color: #D9D9D9;
 }
 .home-space04 {
   width: 100%;
-  height: 120px;
+  height: 136px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .home-name1 {
   align-self: center;
@@ -277,20 +287,68 @@
 }
 .home-space05 {
   width: 100%;
-  height: 76px;
+  height: 36px;
   display: flex;
   align-items: flex-start;
 }
 .home-container1 {
   gap: var(--dl-space-space-fourunits);
-  width: 1533px;
+  width: 75%;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   margin-left: 0px;
   margin-right: 0px;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
+}
+.home-navlink {
+  display: contents;
+}
+.home-component {
+  text-decoration: none;
+}
+.home-navlink1 {
+  display: contents;
+}
+.home-component01 {
+  text-decoration: none;
+}
+.home-navlink2 {
+  display: contents;
+}
+.home-component02 {
+  text-decoration: none;
+}
+.home-navlink3 {
+  display: contents;
+}
+.home-component03 {
+  text-decoration: none;
+}
+.home-navlink4 {
+  display: contents;
+}
+.home-component04 {
+  text-decoration: none;
+}
+.home-navlink5 {
+  display: contents;
+}
+.home-component05 {
+  text-decoration: none;
+}
+.home-navlink6 {
+  display: contents;
+}
+.home-component06 {
+  text-decoration: none;
+}
+.home-space06 {
+  width: 100%;
+  height: 95px;
+  display: flex;
+  align-items: flex-start;
 }
 .home-projects-page {
   width: 100%;
@@ -304,7 +362,7 @@
   justify-content: flex-start;
   background-color: #3a213b;
 }
-.home-space06 {
+.home-space07 {
   width: 100%;
   height: 120px;
   display: flex;
@@ -326,7 +384,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.home-space07 {
+.home-space08 {
   width: 100%;
   height: 76px;
   display: flex;
@@ -347,7 +405,7 @@
   background-repeat: repeat;
   background-position: center;
 }
-.home-space08 {
+.home-space09 {
   width: 100%;
   height: 120px;
   display: flex;
@@ -358,7 +416,7 @@
   align-self: center;
   text-align: center;
 }
-.home-space09 {
+.home-space10 {
   width: 100%;
   height: 76px;
   display: flex;
@@ -373,13 +431,13 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-link1 {
+.home-link {
   display: contents;
 }
 .home-component12 {
   text-decoration: none;
 }
-.home-space10 {
+.home-space11 {
   flex: 0 0 auto;
   width: 200px;
   height: 76px;
@@ -387,7 +445,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-link2 {
+.home-link1 {
   display: contents;
 }
 .home-component13 {

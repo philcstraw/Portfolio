@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Portfolio</title>
+    <title>Page-Dynoball - Portfolio</title>
+    <meta property="og:title" content="Page-Dynoball - Portfolio" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -58,18 +59,65 @@
     />
   </head>
   <body>
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <div>
-      <link href="./game-info-panel.css" rel="stylesheet" />
-      <div class="game-info-panel-game-info-panel">
-        <span class="game-info-panel-game-title"><span>Title</span></span>
-        <img
-          alt="image"
-          src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
-          class="game-info-panel-image"
-        />
-        <span class="game-info-panel-text"><span>Text</span></span>
-        <span class="game-info-panel-text1"><span>Text</span></span>
+      <link href="./page-dynoball.css" rel="stylesheet" />
+
+      <div class="page-dynoball-container">
+        <div id="gamePageID" class="game-info-container-game-info-container">
+          <div class="game-info-container-start-space"></div>
+          <h1 class="game-info-container-game-title HeaderText">
+            <span>Dynoball</span>
+          </h1>
+          <div class="game-info-container-space"></div>
+          <div class="game-info-container-game-container">
+            <div class="game-info-container-game-image-container">
+              <img
+                alt="image"
+                src="public/image_028_0001-300h.jpg"
+                class="game-info-container-image"
+              />
+            </div>
+            <div class="game-info-container-game-desc-container">
+              <span class="game-info-container-company-text">
+                <span>Sole developer - Unity</span>
+              </span>
+              <span class="game-info-container-platform">
+                <span>Android mobile</span>
+              </span>
+              <textarea
+                placeholder="Hyper casual arcade game"
+                class="game-info-container-textarea textarea"
+              ></textarea>
+            </div>
+          </div>
+          <div class="game-info-container-space1"></div>
+          <div class="game-info-container-content-container">
+            <div class="game-info-container-text-container">
+              <span class="game-info-container-description">
+                <span>
+                  Simple football themed arcade game, made in under a week using
+                  a mixture of free and custom assets.
+                </span>
+              </span>
+              <span class="game-info-container-content">
+                <span>
+                  Responsible for game design, programing, art and audio
+                  direction, Google AdMob integration
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="game-info-container-end-space"></div>
+        </div>
+        <a
+          href="https://philcstraw.itch.io/dynoball"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="page-dynoball-link"
+        >
+          Link to itch.io page
+        </a>
       </div>
     </div>
     <script

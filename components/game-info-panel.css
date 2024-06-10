@@ -1,65 +1,61 @@
 .game-info-panel-game-info-panel {
-  width: 448px;
-  height: 207px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: center;
-}
-.game-info-panel-container {
-  flex: 0 0 auto;
   width: auto;
   height: auto;
   display: flex;
+  position: relative;
   align-items: flex-start;
-  justify-content: flex-start;
-}
-.game-info-panel-container1 {
-  flex: 0 0 auto;
-  width: 200px;
-  height: 200px;
-  display: flex;
-  align-self: center;
-  margin-right: var(--dl-space-space-halfunit);
-  flex-direction: row;
-  justify-content: flex-end;
-}
-.game-info-panel-image {
-  width: 200px;
-  height: 200px;
-  align-self: flex-end;
-  object-fit: cover;
+  padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-buttonradius);
-}
-.game-info-panel-container2 {
-  gap: var(--dl-space-space-halfunit);
-  flex: 0 0 auto;
-  width: 233px;
-  height: 203px;
-  display: flex;
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-halfunit);
-  padding-top: var(--dl-space-space-unit);
-  margin-right: 0px;
+  padding-right: var(--dl-space-space-unit);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-unit);
   justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0);
 }
 .game-info-panel-game-title {
   font-size: 24px;
-  align-self: flex-start;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: "Quicksand";
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.game-info-panel-image {
+  width: 243px;
+  height: 136px;
+  align-self: center;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-buttonradius);
+  text-decoration: none;
 }
 .game-info-panel-text {
-  align-self: flex-start;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: "Quicksand";
+  font-weight: 600;
 }
 .game-info-panel-text1 {
+  align-self: center;
+  font-style: normal;
+  text-align: left;
   font-family: "Quicksand";
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
 }
+
+
+
+
+
+
+.game-info-panel-root-class-name6 {
+  display: none;
+}
+
+
 
 
 

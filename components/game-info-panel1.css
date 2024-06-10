@@ -1,0 +1,64 @@
+.game-info-panel1-game-info-panel {
+  width: 853px;
+  height: 207px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.game-info-panel1-container {
+  width: 640px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.game-info-panel1-container1 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-self: center;
+  margin-right: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.game-info-panel1-image {
+  width: auto;
+  height: 200px;
+  align-self: flex-end;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-buttonradius);
+}
+.game-info-panel1-container2 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 234px;
+  height: 203px;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-halfunit);
+  padding-top: var(--dl-space-space-unit);
+  margin-right: 0px;
+  padding-left: 12px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-start;
+}
+.game-info-panel1-game-title {
+  font-size: 24px;
+  align-self: flex-start;
+  text-align: left;
+  font-family: "Quicksand";
+}
+.game-info-panel1-text {
+  align-self: flex-start;
+  text-align: left;
+  font-family: "Quicksand";
+}
+.game-info-panel1-text1 {
+  align-self: flex-start;
+  text-align: left;
+  font-family: "Quicksand";
+}
